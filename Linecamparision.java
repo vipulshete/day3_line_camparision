@@ -4,8 +4,12 @@ public class Linecamparision {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome to Line camparisioncd");
-		
+		System.out.println("Welcome to Line camparission");
+		Linecamparision linecamparision = new Linecamparision();
+		linecamparision.compairlength();
+	}
+	
+	void compairlength( ) {
 		// All Values in mm.
 		
 		int x1 = 2; int a1 =4;
